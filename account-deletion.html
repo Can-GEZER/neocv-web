@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+  <html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoCV – Hesap Silme</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: #0D1117; color: #E6EDF3;
+        line-height: 1.7; padding: 40px 20px;
+      }
+      .container { max-width: 760px; margin: 0 auto; }
+      .logo { font-size: 28px; font-weight: 700; color: #7B9FFF; margin-bottom: 8px; }
+      .subtitle { color: #8B949E; font-size: 14px; margin-bottom: 40px; }
+      h1 { font-size: 24px; font-weight: 700; margin-bottom: 24px; }
+      h2 { font-size: 17px; font-weight: 600; margin: 32px 0 10px; color: #7B9FFF; }
+      p { color: #C9D1D9; margin-bottom: 10px; }
+      ul { color: #C9D1D9; padding-left: 20px; margin-bottom: 10px; }
+      ul li { margin-bottom: 6px; }
+      a { color: #7B9FFF; }
+      .steps { background: #161B22; border-radius: 12px; padding: 24px; margin: 16px 0; }
+      .step { display: flex; gap: 16px; margin-bottom: 16px; align-items: flex-start; }
+      .step-num {
+        background: #3B5BFF; color: #fff; border-radius: 50%;
+        width: 28px; height: 28px; display: flex; align-items: center;
+        justify-content: center; font-weight: 700; font-size: 13px; flex-shrink: 0;
+      }
+      .updated { font-size: 13px; color: #8B949E; margin-bottom: 32px; }
+    </style>
+  </head>
+  <body>
+  <div class="container">
+    <div class="logo">NeoCV</div>
+    <div class="subtitle">AI-Powered CV Analyzer</div>
+
+    <h1>Hesap ve Veri Silme Talebi</h1>
+    <p class="updated">Son güncelleme: 18 Mart 2026</p>
+
+    <p>NeoCV olarak kullanıcılarımızın verilerini kontrol etme hakkına saygı duyuyoruz. Hesabınızı ve ilişkili tüm verilerinizi silmek için aşağıdaki adımları izleyin.</p>
+
+    <h2>Uygulama Üzerinden Silme</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <p>NeoCV uygulamasını açın ve hesabınızla giriş yapın.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <p>Alt menüden <strong>Profil</strong> sekmesine gidin.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <p><strong>Çıkış Yap</strong> butonuna basın.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <p>Hesap ve veri silme talebi için <a href="mailto:cangzr@gmail.com">cangzr@gmail.com</a> adresine e-posta gönderin. E-postanızda kayıtlı Google hesabınızı belirtin.</p>
+      </div>
+    </div>
+
+    <h2>E-posta ile Talep</h2>
+    <p>Uygulamaya erişiminiz yoksa doğrudan <a href="mailto:cangzr@gmail.com">cangzr@gmail.com</a> adresine e-posta göndererek hesap silme talebinde bulunabilirsiniz.</p>
+    <p>Talepler <strong>30 gün</strong> içinde işleme alınır.</p>
+
+    <h2>Silinen Veriler</h2>
+    <ul>
+      <li>Firestore'daki kullanıcı profili ve istatistikler</li>
+      <li>CV analiz geçmişi ve sohbet kayıtları</li>
+      <li>Mülakat seans verileri</li>
+      <li>Abonelik ve referral bilgileri</li>
+      <li>Firebase Storage'daki CV dosyaları</li>
+      <li>FCM bildirim token'ı</li>
+    </ul>
+
+    <h2>Saklama Süresi</h2>
+    <p>Talep işlendikten sonra tüm veriler <strong>30 gün</strong> içinde kalıcı olarak silinir. Google Firebase altyapısındaki veriler Firebase'in veri silme politikasına
+  tabidir.</p>
+
+    <h2>İletişim</h2>
+    <p><a href="mailto:cangzr@gmail.com">cangzr@gmail.com</a></p>
+  </div>
+  </body>
+  </html>
