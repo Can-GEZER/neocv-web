@@ -1,0 +1,166 @@
+ <!DOCTYPE html>                                                                                                                                                                  
+  <html lang="tr">                                                                                                                                                                 
+  <head>                                                                                                                                                                           
+    <meta charset="UTF-8" />                                                                                                                                                       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoCV – Gizlilik Politikası / Privacy Policy</title>                                                                                                                    
+    <style>                                                                                                                                                                        
+      * { box-sizing: border-box; margin: 0; padding: 0; }                                                                                                                         
+      body {                                                                                                                                                                       
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;                                                                                            
+        background: #0D1117;                                                                                                                                                       
+        color: #E6EDF3;                                                                                                                                                            
+        line-height: 1.7;                                                                                                                                                          
+        padding: 40px 20px;                                                                                                                                                        
+      }                                                                                                                                                                            
+      .container { max-width: 760px; margin: 0 auto; }
+      .lang-switch { display: flex; gap: 12px; margin-bottom: 32px; }                                                                                                              
+      .lang-btn {                                                                                                                                                                  
+        padding: 8px 20px; border-radius: 999px; border: none; cursor: pointer;                                                                                                    
+        font-size: 14px; font-weight: 600; transition: background 0.2s;                                                                                                            
+      }                                                                                                                                                                            
+      .lang-btn.active { background: #3B5BFF; color: #fff; }                                                                                                                       
+      .lang-btn:not(.active) { background: #21262D; color: #8B949E; }                                                                                                              
+      .logo { font-size: 28px; font-weight: 700; color: #7B9FFF; margin-bottom: 8px; }                                                                                             
+      .subtitle { color: #8B949E; font-size: 14px; margin-bottom: 40px; }                                                                                                          
+      h1 { font-size: 24px; font-weight: 700; margin-bottom: 8px; color: #E6EDF3; }                                                                                                
+      h2 { font-size: 17px; font-weight: 600; margin: 32px 0 10px; color: #7B9FFF; }                                                                                               
+      p { color: #C9D1D9; margin-bottom: 10px; }                                                                                                                                   
+      ul { color: #C9D1D9; padding-left: 20px; margin-bottom: 10px; }                                                                                                              
+      ul li { margin-bottom: 6px; }                                                                                                                                                
+      a { color: #7B9FFF; text-decoration: none; }                                                                                                                                 
+      a:hover { text-decoration: underline; }                                                                                                                                      
+      .section { display: none; }                                                                                                                                                  
+      .section.active { display: block; }                                                                                                                                          
+      .updated { font-size: 13px; color: #8B949E; margin-bottom: 32px; }                                                                                                           
+      hr { border: none; border-top: 1px solid #21262D; margin: 40px 0; }                                                                                                          
+    </style>                                                                                                                                                                       
+  </head>                                                                                                                                                                          
+  <body>                                                                                                                                                                           
+  <div class="container">                                                                                                                                                          
+                                                                                                                                                                                   
+    <div class="logo">NeoCV</div>                                                                                                                                                  
+    <div class="subtitle">AI-Powered CV Analyzer</div>                                                                                                                             
+                  
+    <div class="lang-switch">                                                                                                                                                      
+      <button class="lang-btn active" onclick="switchLang('tr', this)">Türkçe</button>
+      <button class="lang-btn" onclick="switchLang('en', this)">English</button>                                                                                                   
+    </div>                                                                                                                                                                         
+                                                                                                                                                                                   
+    <!-- TÜRKÇE -->                                                                                                                                                                
+    <div class="section active" id="section-tr">                                                                                                                                   
+      <h1>Gizlilik Politikası</h1>                                                                                                                                                 
+      <p class="updated">Son güncelleme: 18 Mart 2026</p>
+                                                                                                                                                                                   
+      <p>NeoCV uygulamasını kullandığınız için teşekkür ederiz. Bu politika, kişisel verilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.</p>                 
+                                                                                                                                                                                   
+      <h2>1. Topladığımız Veriler</h2>                                                                                                                                             
+      <ul>        
+        <li><strong>Hesap bilgileri:</strong> Google Sign-In aracılığıyla adınız, e-posta adresiniz ve profil fotoğrafınız.</li>
+        <li><strong>CV içeriği:</strong> Yüklediğiniz DOCX/PDF dosyaları analiz amacıyla geçici olarak işlenir ve Firebase Storage'da saklanır.</li>                               
+        <li><strong>Kullanım verileri:</strong> Analiz sayısı, mülakat sayısı, abonelik durumu Firestore'da tutulur.</li>                                                          
+        <li><strong>Cihaz token'ı:</strong> Bildirim göndermek için Firebase Cloud Messaging (FCM) token'ı saklanır.</li>                                                          
+      </ul>                                                                                                                                                                        
+                                                                                                                                                                                   
+      <h2>2. Verilerin Kullanımı</h2>                                                                                                                                              
+      <ul>        
+        <li>CV'nizi analiz etmek, skor hesaplamak ve öneriler sunmak</li>                                                                                                          
+        <li>AI destekli mülakat simülasyonu sağlamak</li>                                                                                                                          
+        <li>Analiz tamamlandığında push bildirim göndermek</li>                                                                                                                    
+        <li>Haftalık özet bildirimi göndermek</li>                                                                                                                                 
+        <li>Abonelik ve premium plan yönetimi</li>                                                                                                                                 
+      </ul>                                                                                                                                                                        
+                                                                                                                                                                                   
+      <h2>3. Üçüncü Taraf Hizmetler</h2>                                                                                                                                           
+      <p>Uygulama aşağıdaki üçüncü taraf hizmetleri kullanır:</p>
+      <ul>                                                                                                                                                                         
+        <li><strong>Google Firebase</strong> (Authentication, Firestore, Storage, Cloud Functions, FCM) — <a href="https://firebase.google.com/support/privacy" 
+  target="_blank">Gizlilik Politikası</a></li>                                                                                                                                     
+        <li><strong>Google Gemini AI</strong> — CV analizi ve mülakat değerlendirmesi için — <a href="https://ai.google.dev/gemini-api/terms" target="_blank">Kullanım
+  Koşulları</a></li>                                                                                                                                                               
+        <li><strong>Google Play Billing</strong> — Abonelik işlemleri için</li>
+        <li><strong>Google Sign-In</strong> — Kimlik doğrulama için</li>                                                                                                           
+      </ul>       
+                                                                                                                                                                                   
+      <h2>4. Veri Paylaşımı</h2>                                                                                                                                                   
+      <p>Kişisel verileriniz üçüncü şahıslarla satılmaz veya ticari amaçla paylaşılmaz. Veriler yalnızca yukarıda belirtilen hizmet sağlayıcılara aktarılır.</p>                   
+                                                                                                                                                                                   
+      <h2>5. Veri Saklama</h2>
+      <p>Hesabınızı sildiğinizde Firestore'daki kullanıcı verileriniz silinir. Firebase Storage'daki CV dosyaları analiz sonrasında silinir. FCM token'ı hesap silinene kadar      
+  saklanır.</p>                                                                                                                                                                    
+   
+      <h2>6. Çocukların Gizliliği</h2>                                                                                                                                             
+      <p>Uygulama 13 yaş altı bireylere yönelik değildir ve bu yaş grubundan bilerek veri toplanmaz.</p>
+                                                                                                                                                                                   
+      <h2>7. Haklarınız</h2>                                                                                                                                                       
+      <p>Verilerinize erişme, düzeltme veya silme talep etme hakkına sahipsiniz. Bunun için aşağıdaki e-posta adresiyle iletişime geçebilirsiniz.</p>                              
+                                                                                                                                                                                   
+      <h2>8. İletişim</h2>
+      <p>Sorularınız için: <a href="mailto:dcangezer@gmail.com">dcangezer@gmail.com</a></p>                                                                                              
+    </div>                                                                                                                                                                         
+   
+    <hr />                                                                                                                                                                         
+                  
+    <!-- ENGLISH -->                                                                                                                                                               
+    <div class="section" id="section-en">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: March 18, 2026</p>
+                                                                                                                                                                                   
+      <p>Thank you for using NeoCV. This policy explains how we collect, use, and protect your personal data.</p>                                                                  
+                                                                                                                                                                                   
+      <h2>1. Data We Collect</h2>                                                                                                                                                  
+      <ul>        
+        <li><strong>Account information:</strong> Your name, email address, and profile photo via Google Sign-In.</li>                                                             
+        <li><strong>CV content:</strong> Uploaded DOCX/PDF files are temporarily processed for analysis and stored in Firebase Storage.</li>
+        <li><strong>Usage data:</strong> Analysis count, interview count, and subscription status stored in Firestore.</li>                                                        
+        <li><strong>Device token:</strong> Firebase Cloud Messaging (FCM) token stored for push notifications.</li>
+      </ul>                                                                                                                                                                        
+                  
+      <h2>2. How We Use Your Data</h2>                                                                                                                                             
+      <ul>        
+        <li>Analyzing your CV, calculating scores, and providing suggestions</li>                                                                                                  
+        <li>Providing AI-powered interview simulations</li>                                                                                                                        
+        <li>Sending push notifications when analysis is complete</li>
+        <li>Sending weekly summary notifications</li>                                                                                                                              
+        <li>Managing subscription and premium plan status</li>
+      </ul>                                                                                                                                                                        
+                  
+      <h2>3. Third-Party Services</h2>                                                                                                                                             
+      <p>The app uses the following third-party services:</p>
+      <ul>
+        <li><strong>Google Firebase</strong> (Authentication, Firestore, Storage, Cloud Functions, FCM) — <a href="https://firebase.google.com/support/privacy"                    
+  target="_blank">Privacy Policy</a></li>                                                                                                                                          
+        <li><strong>Google Gemini AI</strong> — For CV analysis and interview evaluation — <a href="https://ai.google.dev/gemini-api/terms" target="_blank">Terms of Use</a></li>  
+        <li><strong>Google Play Billing</strong> — For subscription transactions</li>                                                                                              
+        <li><strong>Google Sign-In</strong> — For authentication</li>                                                                                                              
+      </ul>                                                                                                                                                                        
+                                                                                                                                                                                   
+      <h2>4. Data Sharing</h2>                                                                                                                                                     
+      <p>Your personal data is never sold or shared for commercial purposes. Data is only transferred to the service providers listed above.</p>
+                                                                                                                                                                                   
+      <h2>5. Data Retention</h2>                                                                                                                                                   
+      <p>When you delete your account, your Firestore user data is deleted. CV files in Firebase Storage are deleted after analysis. FCM tokens are retained until account         
+  deletion.</p>                                                                                                                                                                    
+                  
+      <h2>6. Children's Privacy</h2>                                                                                                                                               
+      <p>The app is not directed at children under 13, and we do not knowingly collect data from this age group.</p>
+                                                                                                                                                                                   
+      <h2>7. Your Rights</h2>
+      <p>You have the right to access, correct, or request deletion of your data. Please contact us at the email address below.</p>                                                
+                                                                                                                                                                                   
+      <h2>8. Contact</h2>
+      <p>For inquiries: <a href="mailto:dcangezer@gmail.com">dcangezer@gmail.com</a></p>                                                                                                 
+    </div>                                                                                                                                                                         
+   
+  </div>                                                                                                                                                                           
+                  
+  <script>
+    function switchLang(lang, btn) {
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));                                                                                           
+      document.getElementById('section-' + lang).classList.add('active');
+      btn.classList.add('active');                                                                                                                                                 
+    }             
+  </script>                                                                                                                                                                        
+  </body>         
+  </html>
